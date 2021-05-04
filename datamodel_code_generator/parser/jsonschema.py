@@ -92,6 +92,8 @@ json_schema_data_formats: Dict[str, Dict[str, Types]] = {
         'uuid5': Types.uuid5,
         'uri': Types.uri,
         'uri-reference': Types.string,
+        'iri': Types.uri,
+        'iri-reference': Types.string,
         'hostname': Types.hostname,
         'ipv4': Types.ipv4,
         'ipv6': Types.ipv6,
